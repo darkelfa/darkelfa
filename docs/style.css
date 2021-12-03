@@ -1,10 +1,4 @@
- body{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
- }
- 
- .container{
+.container{
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -12,18 +6,25 @@
 
 .noselect {
     -webkit-touch-callout: none;
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none;
-              user-select: none;
-          -webkit-tap-highlight-color: transparent;
-  }
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btnList{
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
   
 button {
     color: whitesmoke;
 	width: 150px;
 	height: 50px;
+	margin: 25px;
 	cursor: pointer;
     display: flex;
 	align-items: center;
@@ -33,17 +34,6 @@ button {
 	background-size: 200% 100%;
 	background-position: left;
 	background-repeat: no-repeat;
-	transition: 500ms;
-}
-
-button:before {
-	color: rgba(255,255,255,0.5);
-	font-size: 16px;
-	position: absolute;
-	width: 140px;
-	height: 40px;
-	background-color: #1b2845;
-	background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
 	transition: 500ms;
 }
 
@@ -57,12 +47,4 @@ button:hover:before {
 
 button:focus {
 	outline: none;
-}
-
-button:nth-child(2)::before {
-    content: "Authorize Serial Device";
-}
-
-button:nth-child(3)::before {
-    content: "Authorize USB Device"
 }
