@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.title{
+	display: inline;
+}
+
+.btnList{
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+  
+button {
+    color: whitesmoke;
+	width: 150px;
+	height: 50px;
+	margin: 25px;
+	cursor: pointer;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #1d2a33 74%);
+	background-size: 200% 100%;
+	background-position: left;
+	background-repeat: no-repeat;
+	transition: 500ms;
+}
+
+button:hover {
+	background-position: right;
+}
+
+button:hover:before {
+	color: rgba(255,255,255,0.8);
+}
+
+button:focus {
+	outline: none;
+}
