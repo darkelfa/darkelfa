@@ -1,1 +1,1 @@
-{"tfjsVersion":"1.3.1","tmVersion":"2.4.4","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2021-12-02T03:26:19.818Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["老師","學生","校外人及未穿制服"],"imageSize":224}
+{"tfjsVersion":"1.3.1","tmVersion":"2.4.4","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2021-12-21T07:47:56.450Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["有穿校服","無穿校服"],"imageSize":224}
